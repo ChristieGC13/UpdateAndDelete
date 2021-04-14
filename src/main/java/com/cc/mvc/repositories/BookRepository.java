@@ -17,6 +17,4 @@ public interface BookRepository extends CrudRepository<Book, Long> {
     Long deleteByTitleStartingWith(String search);
     
     void deleteById(Long id);
-    List<Book> save();
-    List<Book> set();
 }
